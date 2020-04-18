@@ -1,7 +1,7 @@
 {
   "name": "@snx-link/snx-link-cli",
   "description": "SNX Link Command Line Interface",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Emiliano Bonassi @emilianobonassi",
   "bin": {
     "snxlink": "./bin/run"

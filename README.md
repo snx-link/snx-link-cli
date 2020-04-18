@@ -60,5 +60,5 @@ OPTIONS
   -j, --json  Print result as JSON
 ```
 
-_See code: [src/commands/users.js](https://github.com/snx-link/snx-link-cli/blob/v0.0.0/src/commands/users.js)_
+_See code: [src/commands/users.js](https://github.com/snx-link/snx-link-cli/blob/v0.0.1/src/commands/users.js)_
 <!-- commandsstop -->
