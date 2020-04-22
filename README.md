@@ -19,7 +19,7 @@ $ npm install -g @snx-link/snx-link-cli
 $ snxlink COMMAND
 running command...
 $ snxlink (-v|--version|version)
-@snx-link/snx-link-cli/0.0.1 darwin-x64 node-v12.16.2
+@snx-link/snx-link-cli/0.0.2 darwin-x64 node-v12.16.2
 $ snxlink --help [COMMAND]
 USAGE
   $ snxlink COMMAND
@@ -60,5 +60,5 @@ OPTIONS
   -j, --json  Print result as JSON
 ```
 
-_See code: [src/commands/users.js](https://github.com/snx-link/snx-link-cli/blob/v0.0.1/src/commands/users.js)_
+_See code: [src/commands/users.js](https://github.com/snx-link/snx-link-cli/blob/v0.0.2/src/commands/users.js)_
 <!-- commandsstop -->
