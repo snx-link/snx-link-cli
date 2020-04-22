@@ -92,6 +92,7 @@ class UsersCommand extends Command {
       .map(({weeks, canClaim, ...fields}) => ({
         ...fields,
         weeks,
+        canClaim,
         isClaimable: canClaim && ((+weeks) > 0),
       }))
 
@@ -103,7 +104,6 @@ class UsersCommand extends Command {
           'id',
           'address',
           'enabled',
-          'canClaim',
           'fees (sUSD)',
           'rewards (SNX)',
           'maxGas (Gwei)',
@@ -111,6 +111,7 @@ class UsersCommand extends Command {
           'feeWallet ',
           'balance (ETH)',
           'weeks',
+          'canClaim',
           'isClaimable',
         ],
       })
